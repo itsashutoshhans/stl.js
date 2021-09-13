@@ -1,0 +1,31 @@
+{
+  "name": "stljs",
+  "version": "0.0.0",
+  "description": "Standard Template Library written in JS to provide common data structures and functions",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/scriptible/stl.js.git"
+  },
+  "keywords": [
+    "[stl",
+    "data-structures",
+    "algo",
+    "js",
+    "javascript]"
+  ],
+  "author": "Ashutosh Hans <itsashutoshhans@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/scriptible/stl.js/issues"
+  },
+  "homepage": "https://github.com/scriptible/stl.js#readme",
+  "devDependencies": {
+    "webpack": "^5.52.1"
+  }
+}
